@@ -1,0 +1,43 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+li {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      list-style-type: none;
+
+}
+ul {
+  padding: 10px 15px;
+  vertical-align: middle;
+  width:50%
+}
+
+
+li:nth-child(even) {
+  background: #f0f0f2;
+}
+li {
+  border-bottom: 1px solid #cecfd5;
+}
+li:first-child {
+  border-top: 1px solid #cecfd5;
+}
+.new_article {
+  color: white;
+  display: block;
+    background: #cecfd5;
+      text-align: center;
+
+
+}
+li {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
