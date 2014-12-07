@@ -38,6 +38,12 @@ li {
 .text-right {
     text-align: right;
 }
-.comments{
-    color:red;
+.comment,p,a{
+    font-family: 'Open Sans', sans-serif;
+}
+input {
+    border-radius: 6px;
+}
+a {
+    text-decoration: none;
 }
